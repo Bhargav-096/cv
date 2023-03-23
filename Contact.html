@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Contact Page</title>
+    <style>
+        form{
+            border: 1px solid black;
+            padding: 12px;
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Details:</h1>
+    <p>My FIctional Address</p>
+    <p>email: myemail@gmail.com</p>
+    <p>Phone: 012334566</p>
+    <p><a href="#">Linkedin</a></p>
+    <hr >
+    <h3>Your Interest:</h3>
+    <form action="mailto:nagabhargavareddy@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Your Name:</label><br >
+        <input type="text" id="name" name="your name"><br>
+        <label for="email">Your Email:</label><br >
+        <input type="email" id="email" name="your gmail"><br>
+        <label for="text">Your Message:</label><br >
+        <textarea name="your message" id="text" cols="30" rows="10"></textarea><br >
+        <input type="submit">
+    </form>
+</body>
+</html>
